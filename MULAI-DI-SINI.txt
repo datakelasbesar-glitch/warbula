@@ -1,0 +1,31 @@
+WARBULA - KEBUDAYAAN NGAWI
+Ditulis oleh Bagas Junianto
+
+PEMASANGAN PERTAMA
+1. Ekstrak seluruh ZIP.
+2. Klik dua kali PASANG-WARBULA.bat yang berada di luar folder WARBULA.
+3. Pemasang menyalin proyek ke Documents\Codex\WARBULA milik akun Windows Anda.
+   Pada akun abdul: C:\Users\abdul\Documents\Codex\WARBULA
+4. Server dinyalakan dan browser dibuka otomatis.
+
+MENJALANKAN DI KEMUDIAN HARI
+Klik dua kali BUKA-WARBULA.bat di folder proyek.
+Alamat: http://127.0.0.1:8000
+Biarkan jendela server terbuka selama membaca. Ctrl+C untuk berhenti.
+Peluncur memakai Windows PowerShell bawaan. Tidak membutuhkan Python, Node.js,
+login, atau instalasi paket. Skrip hanya melayani berkas dari folder proyek
+melalui 127.0.0.1 (laptop sendiri).
+
+Jika port 8000 sedang dipakai, tutup jendela server WARBULA lama dan coba lagi.
+Pemasang tidak menimpa folder WARBULA yang sudah ada.
+Anda juga dapat menjalankan BUKA-WARBULA.bat langsung dari folder hasil ekstrak.
+
+PENGEMBANGAN
+Buka folder proyek dalam Codex lokal. Isi buku ada di content.js, desain di
+style.css. Jangan memisahkan folder assets dari index.html.
+Website tetap statis dan siap dipindahkan ke GitHub Pages nanti.
+server-local.ps1 dan BAT hanya untuk pemakaian lokal.
+
+CATATAN PEMERIKSAAN
+Website dan fungsi pembacanya telah diperiksa pada pratinjau Linux. Peluncur
+PowerShell/BAT belum dijalankan di Windows dari sesi pengembangan ini.
